@@ -18,7 +18,7 @@ fun AppNavGraph(){
 
         composable (route="register"){ RegisterScreen(navController) }
         composable (route="login"){ LoginScreen(navController) }
-        composable(route = "home") { HomeScreen(navController) }
+        composable(route = "home") { HomeScreen() }
 
 
     }
